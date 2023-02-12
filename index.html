@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1><span id="yellow">Calcu</span><span>lator</span></h1>
+        <nav>
+            <a href="https://github.com/SrXitme?tab=repositories">Author</a>
+            <a href="https://github.com/SrXitme?tab=repositories">Tools</a>
+            <a href="https://github.com/SrXitme/calculator-simple.git">View in Github</a>
+        </nav>
+    </header>
+    <main>
+       <div type="text" id="output" value="0"></div>
+
+          
+        
+        
+        <div id="btns">
+                <button id="ce" onclick="ce()">CE</button>
+                <button class="op" onclick="division()" value="/">÷</button>
+                <br>
+            <button class="numbers" value="7" onclick="seven()">7</button>
+            <button class="numbers" value="8" onclick="eht()">8</button>
+            <button class="numbers " value="9" onclick="nine()">9</button>
+            <button class="op" onclick="mult()" value="*">x</button>
+            <br>
+            <button class="numbers" value="4" onclick="f()">4</button>    
+            <button class="numbers" onclick="five()" value="5">5</button>
+            <button class="numbers" onclick="six()" value="6">6</button>
+            <button class="op" value="-" onclick="m()">-</button>
+             <br>
+            <button class="numbers" onclick="one()"value="1">1</button>
+            <button class="numbers" onclick="tw()" value="2">2</button>
+            <button class="numbers" onclick="th()" value="3">3</button>  
+            <button class="op" onclick="more()" value="+">+</button>     
+            <br> 
+            <button id="numbers-zero" value="0" onclick="zero()">0</button>
+            <button class="op" onclick="point()" value=".">.</button>
+            <button class="op" onclick="sum()">=</button>
+
+
+        </div>
+        <div>
+
+        </div>
+    </main>
+    <footer>
+        <p>
+by rnxp
+        </p>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
